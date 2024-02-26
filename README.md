@@ -1,6 +1,6 @@
 # Ko-Gemma
-  [![Huggingface](https://img.shields.io/badge/Huggingface-ko--gemma--2b--v1-%23800020?style=flat&logo=Pytorch&logoColor=white)](https://huggingface.co/models/nlpai-lab/ko-gemma-2b-v1)
-  [![Huggingface](https://img.shields.io/badge/Huggingface-ko--gemma--7b--v1-%23800020?style=flat&logo=Pytorch&logoColor=white)](https://huggingface.co/models/nlpai-lab/ko-gemma-7b-v1)
+  [![Huggingface](https://img.shields.io/badge/Huggingface-ko--gemma--2b--v1-%23800020?style=flat&logo=Pytorch&logoColor=white)](https://huggingface.co/nlpai-lab/ko-gemma-2b-v1)
+  [![Huggingface](https://img.shields.io/badge/Huggingface-ko--gemma--7b--v1-%23800020?style=flat&logo=Pytorch&logoColor=white)](https://huggingface.co/nlpai-lab/ko-gemma-7b-v1)
   
 <div id="top" align="center">
 
@@ -49,9 +49,18 @@ outputs = pipeline(
 print(outputs[0]["generated_text"][len(prompt):]) # '이순신 장군은 조선 시대의 대표적인 군사 지도자이자 전략가입니다. 그는 조선 시대의 수도인 한양에서 태어났으며, 조선 시대 군대에서 다양한 지도자로 활동했습니다.\n\n이순신 장군의 가장 주목할 만한 업적 중 하나는 1592년부터 1598년까지 일본이 조선을 침공한 일본 전쟁에서의 활동입니다. 이 전쟁에서 이순신 장군은 조선 군대의 전략적인 지도자로 활동하며 일본의 침략에 저항하는 데 큰 역할을 했습니다.\n\n이순신 장군은 전투에서의 용기와 전술적 지성으로 유명했습니다. 그는 전투에서 전술적인 사고를 발휘하고 적의 약점을 공격하는 것으로 유명했습니다. 또한 그는 조선 군대의 전력을 고취하고 전투에서 승리하는 데 도움이 되는 연설과 격려의 말을 전하는 것으로도 유명했습니다.\n\n이순신 장군은 전쟁이 끝난 후에도 조선 군대에서 계속 활동하며 조선 군대의 지도자로 활동했습니다. 그는 조선 군대의 전력을 유지하고 조선의 안보를 지키는 데 큰 역할을 했습니다.\n\n이순신 장군은 조선 시대의 대표적인 군사 지도자이자 전략가로 기억되고 있습니다. 그의 용기와 전술적 지성, 그리고 조선 군대의 전력을 유지하는 데 기여한 공로는 그를 전설적인 인물로 만들었습니다.'
 ```
 
+## LLM Inference Results for KoBEST
+Evaluated models with Korean Balanced Evaluation of Significant Tasks (M.Jang et. al). This table presents the 5-shot results.
+
+| Model                          | WIC Acc | WIC F1 | Sentineg Acc | Sentineg F1 | Hellaswag Acc | Hellaswag F1 | COPA Acc | BoolQ Acc | BoolQ F1 | Avg F1 | Avg F1 (Excl. Sentineg, WIC) |
+|--------------------------------|---------|--------|--------------|-------------|---------------|--------------|----------|-----------|----------|--------|-----------------------------|
+| google/gemma-2b-it             | 0.528   | 0.520  | 0.655        | 0.631       | 0.35          | 0.347        | 0.42     | 0.526     | 0.525    | 0.536  | 0.510                       |
+| google/gemma-7b-it             | 0.508   | 0.506  | 0.736        | 0.722       | 0.352         | 0.349        | 0.42     | 0.544     | 0.543    | 0.573  | 0.545                       |
+| nlpai-lab/ko-gemma-2b-v1       | 0.521   | 0.420  | 0.587        | 0.517       | 0.354         | 0.350        | 0.456    | 0.595     | 0.594    | 0.506  | 0.532                       |
+| nlpai-lab/ko-gemma-7b-v1       | 0.563   | 0.542  | 0.788        | 0.780       | 0.39          | 0.388        | 0.488    | 0.639     | 0.638    | 0.629  | 0.608                       |
+
 
 ## License
-
 License
 Copyright 2024 DeepMind Technologies Limited
 
