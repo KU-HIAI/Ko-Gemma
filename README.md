@@ -6,7 +6,7 @@
 
    <img src="https://github.com/KU-HIAI/Ko-Gemma/assets/60927808/e217e02b-2a52-42d7-bb9a-eab7b1739696" height="300" alt="logo">
 
-   Ko-Gemma: Korean Gemma
+**Ko-Gemma**: Korean Gemma
 
 </div>
 
@@ -14,6 +14,14 @@
 - **February 2024: [🚀 Model Release 🚀]** We are excited to announce the release of our initial models for the Korean language processing community! Check them out: 
   - [ko-gemma-2b-v1](https://huggingface.co/nlpai-lab/ko-gemma-2b-v1)
   - [ko-gemma-7b-v1](https://huggingface.co/nlpai-lab/ko-gemma-7b-v1)
+
+## Ko-Gemma?
+
+- [Gemma](https://blog.google/technology/developers/gemma-open-models/) is a family of lightweight, state-of-the-art open models built from the same research and technology used to create the Gemini models.
+
+- The [NLP & AI LAB](https://github.com/nlpai-lab) has instruction-tuned Gemma with a diverse array of Korean datasets, leading to the release of Ko-Gemma models designed for advanced Korean language processing tasks.
+
+- Ko-Gemma v1 was trained exclusively using the chat_template, which means it **may show significantly lower performance in generation or evaluation tasks that do not use the `tokenizer.chat_template`.**
 
 
 ## Quick start
