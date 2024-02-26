@@ -15,8 +15,8 @@
 
 ## What's New
 - **February 2024: [🚀 Model Release 🚀]** We are excited to announce the release of our initial models for the Korean language processing community! Check them out: 
-  - [ko-gemma-2b-v1](https://huggingface.co/nlpai-lab/ko-gemma-2b-v1).
-  - [ko-gemma-7b-v1](https://huggingface.co/nlpai-lab/ko-gemma-7b-v1).
+  - [ko-gemma-2b-v1](https://huggingface.co/nlpai-lab/ko-gemma-2b-v1)
+  - [ko-gemma-7b-v1](https://huggingface.co/nlpai-lab/ko-gemma-7b-v1)
 
 
 ## Quick start
