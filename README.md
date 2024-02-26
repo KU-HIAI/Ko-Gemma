@@ -25,12 +25,12 @@
 from transformers import AutoTokenizer, pipeline
 import torch
 
-model_and_tokenizer_path = "nlpai-lab/gemma-ko-2b-v1"
+model_and_tokenizer_path = "nlpai-lab/gemma-ko-7b-v1"
 
 tokenizer = AutoTokenizer.from_pretrained(model_and_tokenizer_path)
 pipeline = pipeline(
     "text-generation",
-    model=model,
+    model=model_and_tokenizer_path,
     tokenizer=tokenizer,
     model_kwargs={"torch_dtype": torch.bfloat16},
     device="cuda",
