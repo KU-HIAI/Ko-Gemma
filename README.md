@@ -41,7 +41,7 @@ messages = [
     {"role": "user", 
      "content": "이순신 장군에 대해 설명해주세요."},
 ]
-prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True) # Don't use `pipeline.tokenizer`
 print(prompt) # <bos><start_of_turn>user\n이순신 장군에 대해 설명해주세요.<end_of_turn>\n<start_of_turn>model\n
 
 outputs = pipeline(
