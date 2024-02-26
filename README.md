@@ -8,9 +8,6 @@
 
    Ko-Gemma: Korean Gemma
 
-
-   | [Korean](README.md) | [English](docs/README-en.md) |
-
 </div>
 
 ## What's New
