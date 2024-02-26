@@ -25,7 +25,7 @@
 from transformers import AutoTokenizer, pipeline
 import torch
 
-model_and_tokenizer_path = "nlpai-lab/gemma-ko-7b-v1"
+model_and_tokenizer_path = "nlpai-lab/ko-gemma-7b-v1"
 
 tokenizer = AutoTokenizer.from_pretrained(model_and_tokenizer_path)
 pipeline = pipeline(
