@@ -62,7 +62,7 @@ print(outputs[0]["generated_text"][len(prompt):]) # '이순신 장군은 조선 
 
 ## KoBEST에 대한 LLM 추론 결과
 
-한국어 균형 평가 작업([[Korean Balanced Evaluation of Significant Task](https://arxiv.org/abs/2204.04541)], M.Jang et. al)에 대해 5-shot으로 평가된 결과입니다.
+한국어 균형 평가 작업([Korean Balanced Evaluation of Significant Task(https://arxiv.org/abs/2204.04541)], M.Jang et. al)에 대해 5-shot으로 평가된 결과입니다.
 
 | Model                          | WIC Acc | WIC F1 | Sentineg Acc | Sentineg F1 | Hellaswag Acc | Hellaswag F1 | COPA Acc | BoolQ Acc | BoolQ F1 | Avg F1 | Avg F1 (Excl. Sentineg, WIC) |
 |--------------------------------|---------|--------|--------------|-------------|---------------|--------------|----------|-----------|----------|--------|-----------------------------|
