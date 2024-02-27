@@ -6,7 +6,7 @@
 
    <img src="https://github.com/KU-HIAI/Ko-Gemma/assets/60927808/e217e02b-2a52-42d7-bb9a-eab7b1739696" height="300" alt="logo">
 
-**Ko-Gemma**: Korean Gemma
+**Ko-Gemma**: Korean Gemma 🤖
 
 | [한국어](README.md) | [English](docs/README-en.md) |
 
@@ -23,7 +23,7 @@
 - Gemma는 Gemini 모델을 만들기 위해 사용된 동일한 연구와 기술로 구축된 경량화된 최신 대규모 언어모델입니다.
 - Ko-Gemma는 Google의 [Gemma](https://blog.google/technology/developers/gemma-open-models/)에 의해 개발된 한국어 대규모 언어 모델로, 고려대학교 [NLP & AI LAB](https://github.com/nlpai-lab)와 [HIAI 연구소](http://hiai.kr/intro/intro-vision/)가 협력하여 KULLM 데이터셋 및 수제작한 데이터셋을 활용하여 한국어 성능을 더욱 향상시킨 버전입니다.
 - Ko-Gemma v1은 `chat_template`만을 사용하여 학습되었으므로, `tokenizer.chat_template`을 사용하지 않는 생성 또는 평가 작업에서는 성능이 크게 낮아질 수 있습니다.
-- 앞으로 우리는 한국어 데이터로 사후 학습을 거친 모델, 다양한 한국어 지시어 데이터셋으로 튜닝된 모델, 한국어에 더 최적화된 전이 모델을 출시할 계획입니다.
+- 앞으로 우리는 한국어 데이터로 사후 학습 모델, 다양한 한국어 지시어 데이터셋으로 튜닝된 모델, 한국어에 더 최적화된 전이 모델을 출시할 계획입니다.
 
 
 ## Quick start
