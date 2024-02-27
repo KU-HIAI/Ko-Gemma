@@ -71,7 +71,8 @@ Evaluated models with Korean Balanced Evaluation of Significant Tasks (M.Jang et
 | nlpai-lab/ko-gemma-2b-v1       | 0.521   | 0.420  | 0.587        | 0.517       | 0.354         | 0.350        | 0.456    | 0.595     | 0.594    | 0.506  | 0.532                       |
 | nlpai-lab/ko-gemma-7b-v1       | 0.563   | 0.542  | 0.788        | 0.780       | 0.39          | 0.388        | 0.488    | 0.639     | 0.638    | 0.629  | 0.608                       |
 
-
+- Evaluation was conducted using [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness/), with the ['add_bos_token' option](https://github.com/EleutherAI/lm-evaluation-harness/pull/1465) enabled
+ 
 ## License
 License
 Copyright 2024 DeepMind Technologies Limited
