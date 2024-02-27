@@ -71,7 +71,7 @@ print(outputs[0]["generated_text"][len(prompt):]) # '이순신 장군은 조선 
 | nlpai-lab/ko-gemma-2b-v1       | 0.521   | 0.420  | 0.587        | 0.517       | 0.354         | 0.350        | 0.456    | 0.595     | 0.594    | 0.506  | 0.532                       |
 | nlpai-lab/ko-gemma-7b-v1       | 0.563   | 0.542  | 0.788        | 0.780       | 0.39          | 0.388        | 0.488    | 0.639     | 0.638    | 0.629  | 0.608                       |
 
-- 평가는 [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness/)를 사용하였습니다. [add_bos_token 옵션](https://github.com/EleutherAI/lm-evaluation-harness/pull/1465)을 키고 평가하였습니다.
+- 평가는 [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness/)를 사용했습니다. [add_bos_token 옵션](https://github.com/EleutherAI/lm-evaluation-harness/pull/1465)을 적용하여 평가했습니다.
 
 ## License
 License
